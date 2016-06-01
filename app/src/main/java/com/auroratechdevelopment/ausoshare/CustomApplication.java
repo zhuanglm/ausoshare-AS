@@ -5,6 +5,7 @@ package com.auroratechdevelopment.ausoshare;
 
 import android.app.Application;
 import android.content.Context;
+import android.support.multidex.MultiDex;
 
 import com.auroratechdevelopment.ausoshare.ui.ActivityBase;
 import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity;
@@ -24,6 +25,12 @@ public class CustomApplication extends Application {
     private String mUsername;
     private HomeActivity mHomeActivity;
     private String mUserToken;
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
 
     public CustomApplication() {
         instance = this;

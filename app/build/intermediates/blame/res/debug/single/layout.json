@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact_v2.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_contact_v2.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prepare_share_ad.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_prepare_share_ad.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_url.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_contact_url.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_login.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_user_login.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_valid_ad_list_item.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home_valid_ad_list_item.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forwared_ad_history.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_forwared_ad_history.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_entertainment_v2.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home_entertainment_v2.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottombar.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\bottombar.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_album.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\plugin_camera_album.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_entertainment.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_entertainment.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_valid_ad_list_item_v2.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home_valid_ad_list_item_v2.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__activity_pin_code.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__activity_pin_code.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__tweet_compact.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__tweet_compact.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__activity_oauth.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\layout\\tw__activity_oauth.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_ad_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\loading_ad_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_adlist.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home_adlist.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topbar.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\topbar.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_adlist_v2.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home_adlist_v2.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_profile.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__activity_contacts.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__activity_contacts.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_register.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_user_register.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_entertainment.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_home_entertainment.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__country_row.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__country_row.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_current_income.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_current_income.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__media_badge.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__media_badge.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile_v2.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_profile_v2.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__gallery_activity.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__gallery_activity.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__activity_confirmation.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__activity_confirmation.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__tweet.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__tweet.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__app_card.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\layout\\tw__app_card.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__activity_composer.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\layout\\tw__activity_composer.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__state_button.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__state_button.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__activity_share_email.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\layout\\tw__activity_share_email.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yellow_page.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_yellow_page.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__action_bar.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__action_bar.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__video_control.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__video_control.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__player_activity.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\layout\\tw__player_activity.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tw__composer_view.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\layout\\tw__composer_view.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_current_income_list_item.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\fragment_current_income_list_item.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_center_screen.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\alert_center_screen.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__activity_failure.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__activity_failure.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__activity_phone_number.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\layout\\dgts__activity_phone_number.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_round.xml"
+    }
+]

@@ -15,6 +15,8 @@ public class Constants {
     public static final String WX_APP_SECRET = "wx6bb3add97b7da9f9";
     public static BaseResp	WXresp;
     
+    public static final String G_PROJECT_ID = "800422132811";
+    
     public static class ShowMsgActivity {
 		public static final String STitle = "showmsg_title";
 		public static final String SMessage = "showmsg_message";

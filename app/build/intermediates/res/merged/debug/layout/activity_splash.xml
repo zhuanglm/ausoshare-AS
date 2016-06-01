@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_bg"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+		    
+    <com.auroratechdevelopment.ausoshare.ui.ext.MyViewFilpper
+
+           android:id="@+id/splash_img_vf"
+           android:layout_width="fill_parent" 
+           android:layout_height="fill_parent"
+           android:persistentDrawingCache="animation"
+           android:flipInterval="2000"	
+           android:layout_above="@+id/information_layout"
+           android:layout_marginBottom="8dp">
+			
+	</com.auroratechdevelopment.ausoshare.ui.ext.MyViewFilpper>
+	    
+
+    <RelativeLayout
+        android:id="@+id/information_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/splash_copyright_text"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/splash_icon_image"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/app_icon_28"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/splash_app_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_toRightOf="@+id/splash_icon_image"
+            android:layout_marginLeft="8dp"
+            android:textSize="@dimen/font_size_normal"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/information_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_grey_shape"
+        android:minHeight="36dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/splash_copyright_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/splash_copyright"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/label_text_size"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/point_layout"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/splash_img_vf"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/splash_point_1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/splash_dot_bg" />
+
+        <ImageView
+            android:id="@+id/splash_point_2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/splash_dot_bg" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_grey_shape"
+        android:minHeight="36dp"
+        android:text="@string/skip"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+</RelativeLayout>

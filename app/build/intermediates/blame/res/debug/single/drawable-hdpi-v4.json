@@ -1,0 +1,1046 @@
+[
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_icon_purple.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\app_icon_purple.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_orders.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_orders.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_icon_backup.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\app_icon_backup.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_unselected_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\tab_unselected_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_current_income.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_current_income.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_play_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__spinner_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__spinner_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__ic_success.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__ic_success.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_unselected_focused_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\tab_unselected_focused_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_tweet_photo_error_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_tweet_photo_error_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_unselected.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_unselected.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_retweet_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_retweet_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_primary_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\progress_primary_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ab_stacked_solid_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ab_stacked_solid_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_filenum.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_filenum.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_tweet_photo_error_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_tweet_photo_error_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_statement.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_statement.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_cancel.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_cancel.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_back_btn_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_back_btn_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_withdraw_rule.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_withdraw_rule.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_icon_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\app_icon_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_gif_badge.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_gif_badge.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_mono_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_mono_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_icon_small.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\noti_icon_small.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_forwarded_ad.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_forwarded_ad.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ab_solid_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ab_solid_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__logo_name.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__logo_name.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_2.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_2.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_focused.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_focused.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_no_pictures.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_no_pictures.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_icon_28.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\app_icon_28.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_choosed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_choosed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plubin_camera_del_focused.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plubin_camera_del_focused.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_favicon_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_favicon_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_logo_default.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\drawable-hdpi\\tw__ic_logo_default.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_ab_disabled_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\spinner_ab_disabled_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cab_done_focused_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\btn_cab_done_focused_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_1_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cab_background_top_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\cab_background_top_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_ab_focused_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\spinner_ab_focused_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ausoshare_title_logo.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ausoshare_title_logo.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_off_mono_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_pause.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ab_bottom_solid_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ab_bottom_solid_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_play.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_play.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_home_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_home_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_focused_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\list_focused_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_left_arrow.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_left_arrow.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\placeholder.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\placeholder.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cab_background_bottom_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\cab_background_bottom_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_tweet_verified.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_tweet_verified.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__composer_logo_blue.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-hdpi\\tw__composer_logo_blue.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_pause_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\send_music_thumb.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\send_music_thumb.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cab_done_default_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\btn_cab_done_default_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_0_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_0_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_disabled_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_icon.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\noti_icon.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ausoshare_logo.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ausoshare_logo.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_seekbar_bg.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_seekbar_bg.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\firsttime_launch_app_2.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\firsttime_launch_app_2.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_withdraw_request.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_withdraw_request.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_focused.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_focused.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_button_icon_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_album_back.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_album_back.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__share_email_header.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\drawable-hdpi\\tw__share_email_header.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mr_ic_audio_vol.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\mr_ic_audio_vol.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_unselected_pressed_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\tab_unselected_pressed_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_title_bar.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_title_bar.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_withdraw_record.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_withdraw_record.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_selected_focused_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\tab_selected_focused_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_1_mono_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_unselected.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_unselected.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_del_unfocused.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_del_unfocused.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_0_mono_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_0_mono_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_questions_answers.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_questions_answers.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_play_default.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_play_default.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_entertainment_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_entertainment_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_choose_back.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_choose_back.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_play_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_play_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_yellow_page_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_yellow_page_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_close.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_video_pause.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_video_pause.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_navigation_drawer.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ic_navigation_drawer.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_video_replay_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_video_replay_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_share_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_share_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ab_transparent_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ab_transparent_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_main.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_main.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__action_heart_off_default.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__action_heart_off_default.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_video_pause_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_video_pause_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_seekbar_progress_bg.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_seekbar_progress_bg.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_2_mono_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__composer_close.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-hdpi\\tw__composer_close.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_setting_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_entertainment_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_entertainment_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_inline_share.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_inline_share.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__spinner_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__spinner_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_video_play_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_video_play_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_retweet_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_retweet_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_play_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_video_replay.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_video_replay.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_yellow_page_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_yellow_page_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\firsttime_launch_app_1.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\firsttime_launch_app_1.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_income_rule.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_income_rule.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_disabled_mono_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_share_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_share_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_share.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\splash_share.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__addressbook_header.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__addressbook_header.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_pressed_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\list_pressed_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_1.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_1.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_off_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_update_profile.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_update_profile.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__action_heart_on_default.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__action_heart_on_default.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bottom_home_icon_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\bottom_home_icon_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\info.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\info.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_selected_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\tab_selected_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_ab_pressed_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\spinner_ab_pressed_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_operator.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_operator.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_bottom_bar.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_bottom_bar.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yp_ad_image.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\yp_ad_image.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_cancel_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_cancel_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_login_out.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_login_out.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_setting_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_logo_blue.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_logo_blue.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_video_play.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_video_play.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_transparent.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\bg_transparent.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_dropdown_panel_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\menu_dropdown_panel_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__composer_logo_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-hdpi\\tw__composer_logo_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_seekbar_secondary_bg.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_seekbar_secondary_bg.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_ab_default_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\spinner_ab_default_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mine_unpressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_mine_unpressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__logo.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__logo.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_back_btn.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_back_btn.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_bg_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\progress_bg_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dgts__login_header.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-hdpi\\dgts__login_header.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_dark.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_pause_dark.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cab_done_pressed_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\btn_cab_done_pressed_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_0.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_0.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_selected_pressed_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\tab_selected_pressed_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_home_pressed.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_home_pressed.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tw__ic_logo_white.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-hdpi\\tw__ic_logo_white.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_contact_company_introduction.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\icon_contact_company_introduction.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_secondary_rc_mobile.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\progress_secondary_rc_mobile.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_icon.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_2_light.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_2_light.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
+    }
+]

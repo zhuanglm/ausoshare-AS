@@ -6,6 +6,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -23,6 +25,7 @@ import android.widget.CheckBox;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -45,20 +48,34 @@ import com.auroratechdevelopment.ausoshare.util.Constants;
 import com.auroratechdevelopment.common.ViewUtils;
 import com.auroratechdevelopment.common.util.ImageService;
 import com.auroratechdevelopment.common.util.LoadNetPicture;
+import com.auroratechdevelopment.common.util.SocialMediaUtils;
 import com.auroratechdevelopment.common.webservice.WebServiceHelper;
 import com.auroratechdevelopment.common.webservice.models.AdDataItem;
 import com.auroratechdevelopment.common.webservice.models.OnGoingAdItem;
 import com.auroratechdevelopment.common.webservice.response.ResponseBase;
 import com.auroratechdevelopment.common.webservice.response.UpdateUserProfileResponse;
+
 //import com.tencent.mm.sdk.modelmsg.SendMessageToWX;
 //import com.tencent.mm.sdk.modelmsg.WXMediaMessage;
 //import com.tencent.mm.sdk.modelmsg.WXWebpageObject;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookSdk;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareDialog;
 import com.tencent.mm.sdk.openapi.IWXAPI;
 import com.tencent.mm.sdk.openapi.SendMessageToWX;
 import com.tencent.mm.sdk.openapi.WXAPIFactory;
 import com.tencent.mm.sdk.openapi.WXImageObject;
 import com.tencent.mm.sdk.openapi.WXMediaMessage;
 import com.tencent.mm.sdk.openapi.WXWebpageObject;
+
+import com.twitter.sdk.android.Twitter;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
+import com.twitter.sdk.android.tweetcomposer.TweetComposer;
+
+import io.fabric.sdk.android.Fabric;
+
+
 
 /**
  * Created by happy pan on 2015/11/16.
@@ -68,7 +85,7 @@ public class PrepareShareAdActivity extends ActivityBase {
     private OnGoingAdItem adItem;
     private WebView wv;
     private String url;
-    private Button shareConfirmBtn;
+    //private Button shareConfirmBtn;
     
     private IWXAPI api;
     
@@ -87,10 +104,23 @@ public class PrepareShareAdActivity extends ActivityBase {
     private ImageView imageView, viewImage_ad_share;
     private FrameLayout layoutWebView;
     
+    ShareDialog shareDialog;
+	CallbackManager callbackManager;
+    
 
-    @Override
+	@Override
+	protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		callbackManager.onActivityResult(requestCode, resultCode, data);
+	}
+	
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        //AppEventsLogger.activateApp(this);
+        callbackManager = CallbackManager.Factory.create();
+		shareDialog = new ShareDialog(this);
 
     }
 
@@ -101,7 +131,7 @@ public class PrepareShareAdActivity extends ActivityBase {
         adDataItem = b.getParcelable(Constants.BUNDLE_AD_ITEM);
 
         setContentView(R.layout.activity_prepare_share_ad);
-        shareConfirmBtn = (Button)findViewById(R.id.share_confirm_btn);   
+        //shareConfirmBtn = (Button)findViewById(R.id.share_confirm_btn);
         viewImage_ad_share = (ImageView)findViewById(R.id.view_image_ad_share);
 
         api = WXAPIFactory.createWXAPI(this, Constants.APP_ID);
@@ -407,6 +437,25 @@ public class PrepareShareAdActivity extends ActivityBase {
 		readyToShare(Constants.SHARE_TO_FRIENDS);
 	}
 	
+	
+	public void FacebookOnClicked(View view){
+        if(CustomApplication.getInstance().getEmail().equalsIgnoreCase("")){
+            requestUserLogin();
+        }else{
+            SocialMediaUtils.FacebookOnShared(shareDialog,adDataItem);
+            updatedSharedTimes();
+        }
+
+	}
+	
+	public void TwitterOnClicked(View view){
+        if(CustomApplication.getInstance().getEmail().equalsIgnoreCase("")){
+            requestUserLogin();
+        }else {
+            SocialMediaUtils.TwitterOnShared(this, adDataItem);
+            updatedSharedTimes();
+        }
+	}
 //	public static Bitmap getLoacalBitmap(String url) {
 //        try {
 //             FileInputStream fis = new FileInputStream(url);
@@ -525,5 +574,41 @@ public class PrepareShareAdActivity extends ActivityBase {
         }  
         BitmapRecycle(mBitmap);
     }  
+    
+   ////////////////////////////////////////////////////////////////////////////
+    
+    /*private static Twitter twitter;
+    private static RequestToken requestToken;
+    static String TWITTER_CONSUMER_KEY = "L0MfjIUlqgMGjGsQiLktfSPD6";
+    static String TWITTER_CONSUMER_SECRET = "wbih4mNfjZR7uOXm7hq5EXqyxyrbAGLeZ3MfcBWwfIwnobKI2I";
+    final String TWITTER_CALLBACK_URL = "oauth://t4jsample";
+    
+    private void shareToTwitter() {
+        // Check if already logged in
+        //if (!isTwitterLoggedInAlready()) {
+    	if (true) {
+            ConfigurationBuilder builder = new ConfigurationBuilder();
+            builder.setOAuthConsumerKey(TWITTER_CONSUMER_KEY);
+            builder.setOAuthConsumerSecret(TWITTER_CONSUMER_SECRET);
+            Configuration configuration = builder.build();
+             
+            TwitterFactory factory = new TwitterFactory(configuration);
+            twitter = factory.getInstance();
+ 
+            try {
+                requestToken = twitter.getOAuthRequestToken(TWITTER_CALLBACK_URL);
+                this.startActivity(new Intent(Intent.ACTION_VIEW, Uri
+                        .parse(requestToken.getAuthenticationURL())));
+            } catch (TwitterException e) {
+                e.printStackTrace();
+            }
+        } else {
+            // user already logged into twitter
+            Toast.makeText(getApplicationContext(),
+                    "Already Logged into twitter", Toast.LENGTH_LONG).show();
+        }
+    }*/
+ 
+    
 
 }
