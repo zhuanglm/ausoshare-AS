@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
@@ -121,6 +122,7 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         }
         
         getDeviceLocation();
+        getCurrentLanguage();
         
         indicators = new ImageView[m_nPages];
         for(int i = 0; i< m_nPages;i++) {
@@ -159,7 +161,20 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         }
 
     }
-    
+
+    public void getCurrentLanguage(){
+        Resources resources = getResources();
+        Configuration config = resources.getConfiguration();
+        Locale locale = config.locale;
+        /*locale = Locale.SIMPLIFIED_CHINESE;
+        DisplayMetrics dm = resources.getDisplayMetrics();
+        resources.updateConfiguration(config, dm);*/
+
+        String language = locale.getLanguage();
+
+        CustomApplication.getInstance().setLanguage(language);
+    }
+
     public void getDeviceLocation(){
         appLocationService = new AppLocationService(SplashActivity.this);
 

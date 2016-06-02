@@ -48,6 +48,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Rc_mobile"
         android:largeHeap="true"
+        android:configChanges="locale"
         >
         <!--android:theme="@style/Theme.Rc_mobile"-->
 <!---->

@@ -214,7 +214,9 @@ public class HomeActivity extends ActivityBase implements
         else{
         	Log.e("Raymond", "null searchview");
         }
-        
+
+        if(!CustomApplication.getInstance().getLanguage().substring(0,2).equals("zh"))
+            ibtnEntertainment.setVisibility(View.GONE);
 
         
         pushHelper = new PushHelper(this, this);

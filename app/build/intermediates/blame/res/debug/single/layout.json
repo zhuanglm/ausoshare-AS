@@ -12,12 +12,12 @@
         "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prepare_share_ad.xml",
-        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_prepare_share_ad.xml"
-    },
-    {
         "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_url.xml",
         "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_contact_url.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prepare_share_ad.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\layout\\activity_prepare_share_ad.xml"
     },
     {
         "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_login.xml",

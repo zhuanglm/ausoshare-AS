@@ -77,6 +77,7 @@ public class Constants {
     public static final int ORDER_TYPE_COMPLETED = 1; //COMPLETED
 
     public static final String PREF_ITEMLIST ="com.app.itemlist";
+    public static final String CURRENT_LANGUAGE ="com.app.language";
 
     public static final String HOME_TO_FACE_BODY_CARE ="com.xinyuhengtai.hometoface_body";
 

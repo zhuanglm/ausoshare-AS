@@ -173,6 +173,14 @@ public class CustomApplication extends Application {
     	return SharedPreferenceManager.getBoolean(Constants.FIRST_TIME_USE);
     }
 
+    public void setLanguage(String language){
+        SharedPreferenceManager.setString(Constants.CURRENT_LANGUAGE, language);
+    }
+
+    public String getLanguage(){
+        return SharedPreferenceManager.getString(Constants.CURRENT_LANGUAGE);
+    }
+
     public void setCategoryID(String categoryID){
         SharedPreferenceManager.setString(Constants.PREF_ITEMLIST, categoryID);
     }
