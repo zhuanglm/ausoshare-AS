@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
+import com.auroratechdevelopment.ausoshare.CustomApplication;
 import com.auroratechdevelopment.ausoshare.R;
 import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity;
 import com.google.android.gms.gcm.GcmListenerService;
@@ -54,7 +55,8 @@ public class MyGcmListenerService extends GcmListenerService {
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        sendNotification(tittle,message);
+        if(CustomApplication.getInstance().getNotificationChecked())
+            sendNotification(tittle,message);
         // [END_EXCLUDE]
     }
     // [END receive_message]

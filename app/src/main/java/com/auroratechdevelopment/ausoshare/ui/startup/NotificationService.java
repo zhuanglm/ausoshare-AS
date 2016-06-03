@@ -59,8 +59,9 @@ WebServiceListener {
 	
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
-		/*if(!CustomApplication.getInstance().getNotificationChecked())
-			stopSelf();*/
+		if(!CustomApplication.getInstance().getNotificationChecked()) {
+			stopSelf();
+		}
 		
 		WebServiceHelper.getInstance().setServiceListener(this);
 		

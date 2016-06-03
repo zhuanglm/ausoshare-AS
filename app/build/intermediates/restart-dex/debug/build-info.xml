@@ -2,46 +2,41 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="xhdpi"
+    density="xxhdpi"
     format="7"
-    timestamp="1686315682557" >
+    timestamp="10539145583680" >
 
     <task
         name="javac"
-        duration="10015" />
+        duration="2468" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="150" />
+        duration="30" />
     <task
         name="verifier"
-        duration="46" />
+        duration="4" />
 
     <artifact
-        location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
         type="DEX" />
 
-    <build timestamp="1521888659754" >
+    <build timestamp="10265663466265" >
         <artifact
             location="F:\zlm Java\workspace\Ausoshare\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="1686315682557" >
+    <build timestamp="10539145583680" >
         <artifact
-            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
-    </build>
-    <build timestamp="30215633537809" >
         <artifact
             location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
     </build>
 

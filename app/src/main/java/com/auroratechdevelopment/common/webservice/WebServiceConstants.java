@@ -10,10 +10,11 @@ public class WebServiceConstants {
     public static final boolean DoDebug = BuildConfig.DEBUG;
  
     //public static final String WebHost = "http://auroratech.applinzi.com";     //"http://api.ausomedia.com";
-    //public static final String WebHost = "http://api.ausoshare.com";
-    public static final String WebHost = "http://192.168.0.36:8888";
+    public static final String WebHost = "http://api.ausoshare.com";
+    //public static final String WebHost = "http://192.168.0.36:8888";
     
     public static final String splashAdImageURL = "http://api.ausomedia.com/splash_ad_image.jpg";
+    public static final String splashAdImageURL_EN = "http://api.ausomedia.com/splash_ad_image.jpg";
 
     public static int ClientCertResId = -1;
     public static final String ClientCertPassword = "";

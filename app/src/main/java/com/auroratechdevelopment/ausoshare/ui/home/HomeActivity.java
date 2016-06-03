@@ -706,8 +706,8 @@ public class HomeActivity extends ActivityBase implements
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        
-        startService(new Intent(this,NotificationService.class));
+        if(CustomApplication.getInstance().getNotificationChecked())
+            startService(new Intent(this,NotificationService.class));
     }
 
     @Override
@@ -806,7 +806,8 @@ public class HomeActivity extends ActivityBase implements
 		        CustomApplication.getInstance().setLoginOutStatus(false);
 		    }
         	
-        	startService(new Intent(this,NotificationService.class));
+        	if(CustomApplication.getInstance().getNotificationChecked())
+                startService(new Intent(this,NotificationService.class));
             finish();
             System.exit(0);
         }

@@ -101,12 +101,18 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         });
         
         checkNetworkStatus = new CheckNetworkStatus(this);
-        
+        getDeviceLocation();
+        getCurrentLanguage();
         isNotFirstTime = CustomApplication.getInstance().getNotFirstTimeUse();
 
         if (isNotFirstTime && checkNetworkStatus.getNetworkStatus()) {
         	splashAdImage1.setScaleType(ScaleType.FIT_XY);
-        	new LoadNetPicture().getPicture(WebServiceConstants.splashAdImageURL, splashAdImage1);
+            if(CustomApplication.getInstance().getLanguage().substring(0,2).equals("zh")) {
+                new LoadNetPicture().getPicture(WebServiceConstants.splashAdImageURL, splashAdImage1);
+            }
+            else{
+                new LoadNetPicture().getPicture(WebServiceConstants.splashAdImageURL_EN, splashAdImage1);
+            }
         	//splashAdImage2.setScaleType(ScaleType.CENTER_INSIDE);
         	//splashAdImage2.setImageDrawable(getResources().getDrawable(R.drawable.splash_share));
             
@@ -120,10 +126,7 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         	//splashAdImage1.setImageDrawable(getResources().getDrawable(R.drawable.splash_share));
         	
         }
-        
-        getDeviceLocation();
-        getCurrentLanguage();
-        
+
         indicators = new ImageView[m_nPages];
         for(int i = 0; i< m_nPages;i++) {
         	indicators[i] = (ImageView) pointLayout.getChildAt(i);
@@ -154,8 +157,8 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         	splashAdImage2.setScaleType(ScaleType.FIT_XY);
         	splashAdImage2.setImageDrawable(getResources().getDrawable(R.drawable.firsttime_launch_app_2));
         	//img_vf.setAutoStart(true);
-        	
-        	CustomApplication.getInstance().setNotificationChecked(false);
+
+        	CustomApplication.getInstance().setNotificationChecked(true);
         	CustomApplication.getInstance().setNotFirstTimeUse(true);
         	//showFirstTimeUseGuide();
         }

@@ -242,6 +242,7 @@ public class ProfileFragment extends HomeFragmentBase implements
         
         m_Notification_switch = ((CompoundButton)rootView.findViewById(R.id.noti_switch));
         m_Notification_switch.setChecked(CustomApplication.getInstance().getNotificationChecked());
+
         m_Notification_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
