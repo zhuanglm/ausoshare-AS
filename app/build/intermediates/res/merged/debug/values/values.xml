@@ -686,7 +686,7 @@
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">aac900a0-845d-416e-9151-35bbc4d98848</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">cc08fb58-9c70-40d5-91b1-17566a7570f6</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>

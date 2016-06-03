@@ -14,6 +14,7 @@ public class Constants {
 	//public static final String APP_ID = "79aed7dc241794397dd9fe18fe77a99e";
     public static final String WX_APP_SECRET = "wx6bb3add97b7da9f9";
     public static BaseResp	WXresp;
+    public static final String GCM_TOPIC = "/topics/";
     
     public static final String G_PROJECT_ID = "800422132811";
     

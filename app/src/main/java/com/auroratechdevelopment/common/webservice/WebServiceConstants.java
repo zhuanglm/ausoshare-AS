@@ -10,7 +10,8 @@ public class WebServiceConstants {
     public static final boolean DoDebug = BuildConfig.DEBUG;
  
     //public static final String WebHost = "http://auroratech.applinzi.com";     //"http://api.ausomedia.com";
-    public static final String WebHost = "http://api.ausoshare.com";
+    //public static final String WebHost = "http://api.ausoshare.com";
+    public static final String WebHost = "http://192.168.0.36:8888";
     
     public static final String splashAdImageURL = "http://api.ausomedia.com/splash_ad_image.jpg";
 
@@ -24,6 +25,7 @@ public class WebServiceConstants {
     public static String fetchUserProfile = "user/profile/get";
     public static String updateUserProfile = "user/profile/update";
     public static String updateUserPassword = "user/password/update";
+    public static String updateGCMToken = "user/gcm/update";
     public static String withdrawRequest = "company/withdraw_request";
     public static String updateSharedTime = "advert/addShare";
     public static String ADupdate = "advert/updateItems";

@@ -6,6 +6,8 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
 import android.graphics.BitmapFactory;
@@ -45,6 +47,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -215,8 +218,30 @@ public class HomeActivity extends ActivityBase implements
         	Log.e("Raymond", "null searchview");
         }
 
-        if(!CustomApplication.getInstance().getLanguage().substring(0,2).equals("zh"))
+        if(!CustomApplication.getInstance().getLanguage().substring(0,2).equals("zh")) {
             ibtnEntertainment.setVisibility(View.GONE);
+
+            Resources resources = getResources();
+            Configuration config = resources.getConfiguration();
+            Locale locale = config.locale;
+            String language = locale.getLanguage();
+            Log.i("Raymond Language--",language);
+        }
+        /*else{
+            Locale locale = new Locale("en","CA");
+            Resources resources = getResources();
+            Configuration config = resources.getConfiguration();
+            config.locale = locale;
+            DisplayMetrics ldm = resources.getDisplayMetrics();
+            resources.updateConfiguration(config, ldm);
+
+            String language = config.locale.getLanguage();
+            CustomApplication.getInstance().setLanguage(language);
+
+            finish();
+            Intent intent = new Intent(HomeActivity.this,HomeActivity.class);
+            startActivity(intent);
+        }*/
 
         
         pushHelper = new PushHelper(this, this);

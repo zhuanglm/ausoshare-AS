@@ -163,16 +163,18 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
     }
 
     public void getCurrentLanguage(){
-        Resources resources = getResources();
-        Configuration config = resources.getConfiguration();
-        Locale locale = config.locale;
-        /*locale = Locale.SIMPLIFIED_CHINESE;
+
+        Configuration config = getResources().getConfiguration();
+
+        //locale = Locale.SIMPLIFIED_CHINESE;
+        /*locale = new Locale("en","CA");
+        config.locale.setDefault(locale);
         DisplayMetrics dm = resources.getDisplayMetrics();
         resources.updateConfiguration(config, dm);*/
 
-        String language = locale.getLanguage();
-
+        String language = config.locale.getLanguage();
         CustomApplication.getInstance().setLanguage(language);
+
     }
 
     public void getDeviceLocation(){

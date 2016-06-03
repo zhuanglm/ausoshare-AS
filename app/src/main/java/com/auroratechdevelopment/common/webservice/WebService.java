@@ -314,7 +314,7 @@ public class WebService {
                 response.setSuccess(false);
                 response.setErrorNumber(errNumber);
                 //response.setMessage("HTTPS URL Connection ERROR: " + statusCode);
-                response.setMessage("网络连接错误: " + statusCode);
+                response.setMessage("Http request error: " + statusCode);
                 return response;
             }
 

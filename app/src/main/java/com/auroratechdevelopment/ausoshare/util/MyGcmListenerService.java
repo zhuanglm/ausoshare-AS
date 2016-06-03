@@ -6,6 +6,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -31,10 +32,11 @@ public class MyGcmListenerService extends GcmListenerService {
     @Override
     public void onMessageReceived(String from, Bundle data) {
         String message = data.getString("message");
+        String tittle = data.getString("title");
         Log.i(TAG, "From: " + from);
         Log.i(TAG, "Message: " + message);
 
-        if (from.startsWith("/topics/")) {
+        if (from.startsWith(Constants.GCM_TOPIC)) {
             // message received from some topic.
         } else {
             // normal downstream message.
@@ -52,7 +54,7 @@ public class MyGcmListenerService extends GcmListenerService {
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        sendNotification(message);
+        sendNotification(tittle,message);
         // [END_EXCLUDE]
     }
     // [END receive_message]
@@ -62,7 +64,7 @@ public class MyGcmListenerService extends GcmListenerService {
      *
      * @param message GCM message received.
      */
-    private void sendNotification(String message) {
+    private void sendNotification(String tittle,String message) {
         Intent intent = new Intent(this, HomeActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
@@ -71,7 +73,8 @@ public class MyGcmListenerService extends GcmListenerService {
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.noti_icon_small)
-                .setContentTitle("GCM Message")
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(),R.drawable.noti_icon))
+                .setContentTitle(tittle)
                 .setContentText(message)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
