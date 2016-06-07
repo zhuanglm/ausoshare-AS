@@ -686,7 +686,7 @@
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">cef0bceb-e04e-4674-9a16-031770e23de3</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">a37ec16a-bdc9-4ffc-b6f8-27108447f6a8</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -889,7 +889,7 @@
     <string name="profile_earned_funds">earned：</string>
     <string name="profile_empty_ad_text">No record</string>
     <string name="profile_reading_times">read：</string>
-    <string name="profile_top10_info_text">Leader Board</string>
+    <string name="profile_top10_info_text">TOP 10</string>
     <string name="promotion_code">promotion code</string>
     <string name="register_email_prompt">register with your email！</string>
     <string name="register_email_tv">Email</string>

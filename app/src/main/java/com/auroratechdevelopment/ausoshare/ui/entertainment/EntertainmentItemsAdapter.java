@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -83,8 +84,11 @@ public class EntertainmentItemsAdapter extends BaseAdapter{
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent){
-    	if(list != null){
+    	if(list != null && list.size()>position ){
 	    	synchronized (list){
+                Log.e("Edward", "list size is: " + list.size());
+                Log.e("Edward", "position is: " + position);
+
 	            final AdDataItem item = list.get(position);
 	
 	            if(convertView == null){
@@ -146,7 +150,7 @@ public class EntertainmentItemsAdapter extends BaseAdapter{
                 return;
             }
             final int position = ((ViewHolder) v.getTag()).iTag;
-            if(listener != null){
+            if(listener != null && list.size()>position){
                 listener.onItemDetails(list.get(position));
             }
         }

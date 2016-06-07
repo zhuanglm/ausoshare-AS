@@ -55,7 +55,7 @@
     <string name="ongoing_ad_completed_shared_suffix"> people shared</string>
 
     <string name="profile_current_income_text">available amount: CAD </string>
-    <string name="profile_top10_info_text">Leader Board</string>
+    <string name="profile_top10_info_text">TOP 10</string>
     <string name="profile_reading_times">read：</string>
     <string name="profile_earned_funds">earned：</string>
     <string name="profile_empty_ad_text">No record</string>

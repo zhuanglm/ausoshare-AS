@@ -44,12 +44,12 @@
         "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable\\tw__app_info_layout_border.xml"
     },
     {
-        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_test.jpg",
-        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable\\splash_test.jpg"
-    },
-    {
         "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tw__seekbar_thumb.xml",
         "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable\\tw__seekbar_thumb.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_test.jpg",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\src\\main\\res\\drawable\\splash_test.jpg"
     },
     {
         "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_preference_single.xml",

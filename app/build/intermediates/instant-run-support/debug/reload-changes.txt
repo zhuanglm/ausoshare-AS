@@ -1,3 +1,0 @@
-CHANGED,F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\auroratechdevelopment\common\webservice\WebServiceConstants$override.class
-CHANGED,F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\auroratechdevelopment\common\webservice\util\WebUtils$override.class

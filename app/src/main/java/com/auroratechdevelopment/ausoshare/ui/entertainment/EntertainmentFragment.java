@@ -186,7 +186,7 @@ public class EntertainmentFragment extends HomeFragmentBase  implements
 	    			if (list1.getLastVisiblePosition() >= list1.getCount() - 1 - 0) {
 
 //                    startNumber = startNumber + Constants.ADS_PAGE_SIZE;
-	    				if(startNumber%Constants.ADS_PAGE_SIZE == 0){
+	    				if(startNumber!=0 && startNumber%Constants.ADS_PAGE_SIZE == 0){
 	    					getNewEntertainments(startNumber,Constants.TAG_FUN);
 	    				}
 	    			}

@@ -86,7 +86,7 @@ public class OnGoingAdItemsAdapter extends BaseAdapter{
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent){
-    	if(list != null){
+    	if(list != null && list.size()>position){
     	    synchronized (list){
     	    	
     	    	Log.e("Edward", "list size is: " + list.size());

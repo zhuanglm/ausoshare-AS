@@ -106,7 +106,7 @@ public class HomeFragment extends HomeFragmentBase  implements
                     if (list.getLastVisiblePosition() >= list.getCount() - 1 - 0) {
 
 //                        startNumber = startNumber + Constants.ADS_PAGE_SIZE;
-                    	if(startNumber%Constants.ADS_PAGE_SIZE == 0){
+                    	if(startNumber!=0 && startNumber%Constants.ADS_PAGE_SIZE == 0){
                     		Log.e("Edward Debug", "111 invoke getNewAds");
                     		getNewAds(startNumber);
                     	}
@@ -128,7 +128,9 @@ public class HomeFragment extends HomeFragmentBase  implements
         list.setAdapter(adapter);
 
         swipeRefreshlayout = (SwipeRefreshLayout)rootView.findViewById(R.id.swipe_container_ad);
-        swipeRefreshlayout.setColorScheme(android.R.color.holo_purple);
+        swipeRefreshlayout.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light, android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);;
         swipeRefreshlayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
 			
 			@Override
@@ -210,7 +212,7 @@ public class HomeFragment extends HomeFragmentBase  implements
         });
 		
 //		final GetOnGoingAdListResponse adList = (GetOnGoingAdListResponse) response;
-        if(homeActivity != null){
+        if(homeActivity != null && adList.data.size()>0){
             homeActivity.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
@@ -220,9 +222,11 @@ public class HomeFragment extends HomeFragmentBase  implements
                 	
                 	if(tag == -1){
                 		adapter.clearList();
+                        startNumber = 0;
                 	}
 
-                	startNumber = startNumber + adList.data.size();
+                    Log.e("Edward", "at ResponseSuccessCallBack, startNumber is: " + startNumber);
+                    startNumber = startNumber + adList.data.size();
                 	
                 	Log.e("Edward", "at ResponseSuccessCallBack, startNumber is: " + startNumber);
                 	CustomApplication.getInstance().setLastAD(adList.data.get(adList.data.size()-1).adID);
