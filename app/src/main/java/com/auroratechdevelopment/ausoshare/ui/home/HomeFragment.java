@@ -57,12 +57,14 @@ public class HomeFragment extends HomeFragmentBase  implements
 	    private RelativeLayout forwardMethodText;
 	    
 	    private ViewPagerEx pager;
+        private boolean isFinished;
 	    
 //	    private PullToRefreshLayout mPullToRefreshLayout;
 	
 	    @Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
+            isFinished = false;
 	    }
 	
 	    @Override
@@ -110,6 +112,12 @@ public class HomeFragment extends HomeFragmentBase  implements
                     		Log.e("Edward Debug", "111 invoke getNewAds");
                     		getNewAds(startNumber);
                     	}
+                        else{//all ads were downloaded
+                            if(!isFinished) {
+                                getFinishedAds();   //add 100% ads 1 time
+                                isFinished = true;
+                            }
+                        }
                     }
                 }
             }
@@ -142,6 +150,7 @@ public class HomeFragment extends HomeFragmentBase  implements
 	                public void run() {
 	                	swipeRefreshlayout.setRefreshing(false);
 	                	startNumber = 0;
+                        isFinished = false;
 	                	Log.e("Edward Debug", "222 invoke getNewAds");
 	                	adapter.clearList();
 	                    getNewAds(startNumber);
@@ -184,6 +193,14 @@ public class HomeFragment extends HomeFragmentBase  implements
         WebServiceHelper.getInstance().onGoingAdList(user_info, Constants.TAG_ADVERT,"");
     }
 
+        private void getFinishedAds(){
+//    	homeActivity.showWaiting();
+
+            Log.i("Raymond", "get 100% ads ");
+            UserInfo user_info = setUserInfo(0);
+            WebServiceHelper.getInstance().offAdList(user_info, Constants.TAG_ADVERT,"");
+        }
+
     public void checkLoginStatus(){
         if(!CustomApplication.getInstance().getUserLogin()){
             startActivity(new Intent(getActivity(), LoginActivity.class));
@@ -212,12 +229,12 @@ public class HomeFragment extends HomeFragmentBase  implements
         });
 		
 //		final GetOnGoingAdListResponse adList = (GetOnGoingAdListResponse) response;
-        if(homeActivity != null && adList.data.size()>0){
+        if(homeActivity != null && adList.data.size()>=0){
             homeActivity.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
                 	if(adList.data != null &&adList.data.size() == 0 ){
-
+                        return;
                 	}
                 	
                 	if(tag == -1){

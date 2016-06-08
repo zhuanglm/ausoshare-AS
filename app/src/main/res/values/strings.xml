@@ -80,12 +80,12 @@
     <string name="login_prompt_text">login prompt</string>
 
     <!-- contact -->
-    <string name="contact_t_c_text">announcement</string>
-    <string name="contact_incoming_rule_text">incoming rule</string>
-    <string name="contact_withdraw_rule_text">withdraw rule</string>
-    <string name="contact_company_introduction_text">introduction</string>
+    <string name="contact_t_c_text">Announcement</string>
+    <string name="contact_incoming_rule_text">Incoming rule</string>
+    <string name="contact_withdraw_rule_text">Withdraw rule</string>
+    <string name="contact_company_introduction_text">Introduction</string>
     <string name="contact_questions_answers_text">FAQ</string>
-    <string name="contact_customer_text">contact us</string>
+    <string name="contact_customer_text">Contact us</string>
 
     <!-- yellow page -->
     <string name="yp_first_life_text">生活服务</string>

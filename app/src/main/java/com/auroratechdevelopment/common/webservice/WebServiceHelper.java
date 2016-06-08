@@ -8,6 +8,7 @@ import com.auroratechdevelopment.common.webservice.request.AcquireUpdateRequest;
 import com.auroratechdevelopment.common.webservice.request.CurrentIncomeRequest;
 import com.auroratechdevelopment.common.webservice.request.ForgotPasswordRequest;
 import com.auroratechdevelopment.common.webservice.request.ForwardedAdHistoryRequest;
+import com.auroratechdevelopment.common.webservice.request.GetFinishedAdListRequest;
 import com.auroratechdevelopment.common.webservice.request.GetOnGoingAdListRequest;
 import com.auroratechdevelopment.common.webservice.request.GetOnGoingEntertainmentListRequest;
 import com.auroratechdevelopment.common.webservice.request.GetURLRequest;
@@ -335,6 +336,20 @@ private boolean validateWebServiceConnection(ResponseBase response) {
             @Override
             public void ResponseReady(int id, int tag, ForwardedAdHistoryResponse response){
                 validateResponse(tag,response);
+            }
+        });
+    }
+
+    public void offAdList(UserInfo userInfo, String tag , String key){
+        GetFinishedAdListRequest req = new GetFinishedAdListRequest(CustomApplication.getInstance().getEmail(),
+                CustomApplication.getInstance().getUserToken(),
+                CustomApplication.getInstance().getAndroidID(),
+                userInfo, tag , key);
+
+        WebService.sendRequestAsync(req, new WebService.WebServiceCallback<GetOnGoingAdListResponse>(){//same response with ongoing list
+            @Override
+            public void ResponseReady(int id, int tag, GetOnGoingAdListResponse response){
+                validateResponse(tag, response);
             }
         });
     }

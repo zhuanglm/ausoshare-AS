@@ -686,7 +686,7 @@
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">a37ec16a-bdc9-4ffc-b6f8-27108447f6a8</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">0e32eea1-c969-4660-9dbf-0be0e1cac2eb</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -738,12 +738,12 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="confirm_button_text">confirm</string>
     <string name="confirm_password_text">confirm password</string>
-    <string name="contact_company_introduction_text">introduction</string>
-    <string name="contact_customer_text">contact us</string>
-    <string name="contact_incoming_rule_text">incoming rule</string>
+    <string name="contact_company_introduction_text">Introduction</string>
+    <string name="contact_customer_text">Contact us</string>
+    <string name="contact_incoming_rule_text">Incoming rule</string>
     <string name="contact_questions_answers_text">FAQ</string>
-    <string name="contact_t_c_text">announcement</string>
-    <string name="contact_withdraw_rule_text">withdraw rule</string>
+    <string name="contact_t_c_text">Announcement</string>
+    <string name="contact_withdraw_rule_text">Withdraw rule</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="customer_support_email">mailto:cs@ausoshare.com</string>
