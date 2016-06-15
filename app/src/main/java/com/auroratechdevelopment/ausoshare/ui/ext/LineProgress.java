@@ -86,7 +86,7 @@ public class LineProgress extends BaseProgressView {
         if (progress < maximum_progress)
             canvas.drawRect(rectP.width() + mt, nMiddle, width - getPaddingRight(), nMiddle, backgroundPaint);
 
-        canvas.drawText(text, progressX + 10, nMiddle + backgroundStrokeWidth +4,
+        canvas.drawText(text, progressX + 20, nMiddle + backgroundStrokeWidth +4,
                 textPaint);
     }
 

@@ -674,6 +674,7 @@
     <string name="album">相册</string>
     <string name="alert_mine_login_prompt_text">you have to sign in</string>
     <string name="alert_share_ad_login_prompt_text">register/login with your email</string>
+    <string name="alert_withdraw_prompt_text">Do you want to withdraw right now?</string>
     <string name="app_name">AusoShare</string>
     <string name="app_version">2.0.0</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
@@ -686,7 +687,7 @@
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">0e32eea1-c969-4660-9dbf-0be0e1cac2eb</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">6eb1da01-4b93-4695-9561-371c8d2611d1</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -738,6 +739,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="confirm_button_text">confirm</string>
     <string name="confirm_password_text">confirm password</string>
+    <string name="confirm_prompt_text">Confirmation</string>
     <string name="contact_company_introduction_text">Introduction</string>
     <string name="contact_customer_text">Contact us</string>
     <string name="contact_incoming_rule_text">Incoming rule</string>
@@ -837,6 +839,12 @@
     <string name="is_timeline">Do you want to share</string>
     <string name="kit_name">Twitter</string>
     <string name="label_remember_me">remember me</string>
+    <string name="lang_change_en">English will be applied</string>
+    <string name="lang_change_zh">系统语言设置为中文</string>
+    <string name="lang_set_en">You must restart to apply this change</string>
+    <string name="lang_set_zh">如需变更生效请退出应用并重启</string>
+    <string name="lang_title_en">You selected English</string>
+    <string name="lang_title_zh">系统语言为中文</string>
     <string name="login_prompt_text">login prompt</string>
     <string name="login_test_email">cs@ausoshare.com</string>
     <string name="login_test_password">1234</string>
@@ -946,7 +954,10 @@
     <string name="ui_current_income">current income: $</string>
     <string name="ui_detail">Detail</string>
     <string name="ui_income">Per click: $</string>
-    <string name="ui_leaderboard">[Leader Board]</string>
+    <string name="ui_lang_en">English</string>
+    <string name="ui_lang_setting">Language</string>
+    <string name="ui_lang_zh">中文</string>
+    <string name="ui_leaderboard">[TOP10]</string>
     <string name="ui_location">location: </string>
     <string name="ui_logout">[QUIT]</string>
     <string name="ui_progress">progress: 50%</string>

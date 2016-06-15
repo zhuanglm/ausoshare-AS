@@ -24,9 +24,7 @@ public class WebUtils {
 	
 	public static Gson getGsonInstance(){
 		return new GsonBuilder()
-		.serializeNulls()
-				.setFieldNamingPolicy(FieldNamingPolicy.IDENTITY)
-		.create();
+		.serializeNulls().setFieldNamingPolicy(FieldNamingPolicy.IDENTITY).create();
 	}
 
 }

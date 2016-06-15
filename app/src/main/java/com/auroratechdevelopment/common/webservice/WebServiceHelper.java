@@ -367,6 +367,20 @@ private boolean validateWebServiceConnection(ResponseBase response) {
             }
         });
     }
+
+    public void onGoingAdList(UserInfo userInfo, String tag , String key,String lang){
+        GetOnGoingAdListRequest req = new GetOnGoingAdListRequest(CustomApplication.getInstance().getEmail(),
+                CustomApplication.getInstance().getUserToken(),
+                CustomApplication.getInstance().getAndroidID(),
+                userInfo, tag , key,lang);
+
+        WebService.sendRequestAsync(req, new WebService.WebServiceCallback<GetOnGoingAdListResponse>(){
+            @Override
+            public void ResponseReady(int id, int tag, GetOnGoingAdListResponse response){
+                validateResponse(tag, response);
+            }
+        });
+    }
     
     public void onGoingEntertainmentList(UserInfo userInfo, String tag, String key){
         GetOnGoingEntertainmentListRequest req = new GetOnGoingEntertainmentListRequest(CustomApplication.getInstance().getEmail(),

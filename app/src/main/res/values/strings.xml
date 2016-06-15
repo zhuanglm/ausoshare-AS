@@ -191,7 +191,7 @@
     
      <!-- profile -->
      <string name="ui_logout">[QUIT]</string>
-     <string name="ui_leaderboard">[Leader Board]</string>
+     <string name="ui_leaderboard">[TOP10]</string>
      <string name="ui_detail">Detail</string>
      <string name="ui_username">Username</string>
      <string name="ui_avatar">[Avatar]</string>
@@ -200,6 +200,9 @@
      <string name="ui_withdraw_record">withdraw record</string>
      <string name="ui_withdraw_request">withdraw request</string>
      <string name="ui_push_notification">push notification</string>
+     <string name="ui_lang_setting">Language</string>
+     <string name="ui_lang_en">English</string>
+     <string name="ui_lang_zh">中文</string>
      <string name="ui_take_picture">take picture</string>
      <string name="ui_album">pick from album</string>
      
@@ -220,5 +223,14 @@
     <string name="no_photo">相册没有图片</string>
     
     <string name="no_data">no data,click to refresh</string>
+
+    <string name="confirm_prompt_text">Confirmation</string>
+    <string name="alert_withdraw_prompt_text">Do you want to withdraw right now?</string>
+    <string name="lang_title_en">You selected English</string>
+    <string name="lang_set_en">You must restart to apply this change</string>
+    <string name="lang_change_en">English will be applied</string>
+    <string name="lang_title_zh">系统语言为中文</string>
+    <string name="lang_set_zh">如需变更生效请退出应用并重启</string>
+    <string name="lang_change_zh">系统语言设置为中文</string>
     
 </resources>

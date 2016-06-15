@@ -4,47 +4,50 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="20250077435006"
+    timestamp="2843012631967"
     token="3304764322171488706" >
 
     <task
         name="javac"
-        duration="4958" />
+        duration="2235" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="149" />
+        duration="172" />
     <task
         name="verifier"
-        duration="216" />
+        duration="119" />
 
-    <artifact
-        location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
     <artifact
         location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
         type="DEX" />
 
-    <build timestamp="18797709342521" >
+    <build timestamp="660559372058" >
         <artifact
             location="F:\zlm Java\workspace\Ausoshare\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="20250077435006" >
+    <build timestamp="1470499363859" >
         <artifact
-            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
+    </build>
+    <build timestamp="1724952066736" >
         <artifact
-            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
+    </build>
+    <build timestamp="2843012631967" >
         <artifact
             location="F:\zlm Java\workspace\Ausoshare\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
+    </build>
+    <build timestamp="30436069335043" >
+        <artifact
+            location="F:\zlm Java\workspace\Ausoshare\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
     </build>
 
 </instant-run>

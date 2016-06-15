@@ -386,7 +386,7 @@ public class PrepareShareEntertainmentActivity extends ActivityBase {
 			req.scene = SendMessageToWX.Req.WXSceneTimeline;
 		}
 		api.sendReq(req);
-		updatedSharedTimes();
+		//updatedSharedTimes();
     }
     
 	public void PrepareToShareOnClicked(View view){
@@ -399,10 +399,12 @@ public class PrepareShareEntertainmentActivity extends ActivityBase {
 
     public void FacebookOnClicked(View view){
         SocialMediaUtils.FacebookOnShared(shareDialog,adDataItem);
+        //updatedSharedTimes();
     }
 
     public void TwitterOnClicked(View view){
         SocialMediaUtils.TwitterOnShared(this,adDataItem);
+        //updatedSharedTimes();
     }
 	
 	public static Bitmap getLoacalBitmap(String url) {

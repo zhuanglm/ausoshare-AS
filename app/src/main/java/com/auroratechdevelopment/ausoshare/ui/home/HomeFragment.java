@@ -23,6 +23,7 @@ import com.auroratechdevelopment.ausoshare.ui.ext.LineProgress;
 import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity.HomeAdListUpdated;
 import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity.HomeEntertainmentListUpdated;
 import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity.HomeStartNumUpdated;
+import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity.HomeLangUpdated;
 import com.auroratechdevelopment.ausoshare.ui.login.LoginActivity;
 import com.auroratechdevelopment.ausoshare.util.Constants;
 import com.auroratechdevelopment.common.DebugLogUtil;
@@ -45,7 +46,7 @@ import java.util.ArrayList;
 public class HomeFragment extends HomeFragmentBase  implements  
     OnGoingAdItemsAdapter.GetItemSelected,
     SwipeRefreshLayout.OnRefreshListener,
-    HomeActivity.HomeAdListUpdated, HomeStartNumUpdated
+    HomeActivity.HomeAdListUpdated, HomeStartNumUpdated, HomeLangUpdated
     {
 	    private ListView list;
 	    private OnGoingAdItemsAdapter adapter;
@@ -153,7 +154,7 @@ public class HomeFragment extends HomeFragmentBase  implements
                         isFinished = false;
 	                	Log.e("Edward Debug", "222 invoke getNewAds");
 	                	adapter.clearList();
-	                    getNewAds(startNumber);
+	                    getNewAds(startNumber,homeActivity.m_sLanguage);
 	                }
 	            }, 1000);
 			}
@@ -192,6 +193,13 @@ public class HomeFragment extends HomeFragmentBase  implements
         UserInfo user_info = setUserInfo(startNumber);
         WebServiceHelper.getInstance().onGoingAdList(user_info, Constants.TAG_ADVERT,"");
     }
+        private void getNewAds(int startNumber,String lang){
+//    	homeActivity.showWaiting();
+
+            Log.e("Edward", "getNewAds: startNumber = " + startNumber);
+            UserInfo user_info = setUserInfo(startNumber);
+            WebServiceHelper.getInstance().onGoingAdList(user_info, Constants.TAG_ADVERT,"",lang);
+        }
 
         private void getFinishedAds(){
 //    	homeActivity.showWaiting();
@@ -262,4 +270,11 @@ public class HomeFragment extends HomeFragmentBase  implements
 	}
 
 
-}
+        @Override
+        public void onHomeLangUpdated(String lang) {
+            Log.i("Raymond lang",lang);
+            startNumber = 0;
+            adapter.clearList();
+            getNewAds(startNumber,lang);
+        }
+    }

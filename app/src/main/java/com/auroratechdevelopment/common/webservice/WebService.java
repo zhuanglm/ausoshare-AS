@@ -259,29 +259,23 @@ public class WebService {
 
                 if (WebServiceConstants.ClientCertResId != -1) {
                     InputStream inputStream = context.getResources()
-                            .openRawResource(
-                                    WebServiceConstants.ClientCertResId);
+                            .openRawResource(WebServiceConstants.ClientCertResId);
                     // Using a client certificate
                     sc = SSLContextFactory.getInstance()
-                            .makeContext(inputStream,
-                                    WebServiceConstants.ClientCertPassword);
+                            .makeContext(inputStream,WebServiceConstants.ClientCertPassword);
 
-                    HttpsURLConnection.setDefaultSSLSocketFactory(sc
-                            .getSocketFactory());
+                    HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
                 }
 
-                HttpsURLConnection https = (HttpsURLConnection) url
-                        .openConnection();
+                HttpsURLConnection https = (HttpsURLConnection) url.openConnection();
 
                 // https.setHostnameVerifier(DO_NOT_VERIFY);
                 connection = https;
             } else {
                 connection = (HttpURLConnection) url.openConnection();
             }
-            connection
-                    .setConnectTimeout((int) (1000F * WebServiceConstants.WebServiceConnectionTimeout));
-            connection
-                    .setReadTimeout((int) (1000F * WebServiceConstants.WebServiceReadTimeout));
+            connection.setConnectTimeout((int) (1000F * WebServiceConstants.WebServiceConnectionTimeout));
+            connection.setReadTimeout((int) (1000F * WebServiceConstants.WebServiceReadTimeout));
             connection.setDoOutput(true);
 
             // set the connection properties needed for the web service

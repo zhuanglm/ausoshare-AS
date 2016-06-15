@@ -25,6 +25,16 @@ public class GetOnGoingAdListRequest extends RequestBase<GetOnGoingAdListRespons
         keyword = key;
     }
 
+    public GetOnGoingAdListRequest( String email, String Token, String deviceId, UserInfo data, String tag, String key,String lang) {
+        this.email = email;
+        this.deviceID = deviceId;
+        this.data = data;
+        this.token = Token;
+        this.tag = tag;
+        keyword = key;
+        language = lang.toUpperCase();
+    }
+
     @Override
     public String getUri() {
         return WebUtils.getURI(String.format(WebServiceConstants.advertOngoingList));

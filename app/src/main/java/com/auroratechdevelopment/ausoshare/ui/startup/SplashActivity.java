@@ -3,6 +3,8 @@ package com.auroratechdevelopment.ausoshare.ui.startup;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.location.Location;
@@ -11,6 +13,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.GestureDetector.OnGestureListener;
 import android.view.MotionEvent;
@@ -102,8 +105,13 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         
         checkNetworkStatus = new CheckNetworkStatus(this);
         getDeviceLocation();
-        getCurrentLanguage();
+
         isNotFirstTime = CustomApplication.getInstance().getNotFirstTimeUse();
+
+        if(!isNotFirstTime)
+            getSysLanguage();
+        else
+            getCurrentLanguage();
 
         if (isNotFirstTime && checkNetworkStatus.getNetworkStatus()) {
         	splashAdImage1.setScaleType(ScaleType.FIT_XY);
@@ -137,7 +145,15 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         
         //is not the first time, means from the second times
         if(isNotFirstTime){
-        	pointLayout.setVisibility(View.INVISIBLE);
+            String sVerName="";
+            try {
+                sVerName = getVersionName();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            Log.i("Raymond Version:",sVerName);
+
+            pointLayout.setVisibility(View.INVISIBLE);
         	m_BtnSkip.setVisibility(View.VISIBLE);
         	
         	new Handler().postDelayed(new Runnable() {
@@ -165,18 +181,43 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
 
     }
 
+    private String getVersionName() throws Exception{
+        //获取packagemanager的实例
+        PackageManager packageManager = getPackageManager();
+        //getPackageName()是你当前类的包名，0代表是获取版本信息
+        PackageInfo packInfo = packageManager.getPackageInfo(getPackageName(), 0);
+        return packInfo.versionName;
+    }
+
     public void getCurrentLanguage(){
+        Locale locale;
+
+        if(CustomApplication.getInstance().getLanguage().substring(0,2).equals("zh")) {
+            locale = new Locale("zh","CN");
+            Log.i("Raymond Language:","zh");
+        }else{
+            locale = new Locale("en","CA");
+            Log.i("Raymond Language:","en");
+        }
+
+        Resources resources = getResources();
+        Configuration config = resources.getConfiguration();
+        config.locale = locale;
+        DisplayMetrics ldm = resources.getDisplayMetrics();
+        resources.updateConfiguration(config, ldm);
+
+
+
+    }
+
+    public void getSysLanguage(){
 
         Configuration config = getResources().getConfiguration();
 
-        //locale = Locale.SIMPLIFIED_CHINESE;
-        /*locale = new Locale("en","CA");
-        config.locale.setDefault(locale);
-        DisplayMetrics dm = resources.getDisplayMetrics();
-        resources.updateConfiguration(config, dm);*/
-
         String language = config.locale.getLanguage();
         CustomApplication.getInstance().setLanguage(language);
+
+        Log.i("Raymond sysLanguage:",language);
 
     }
 
