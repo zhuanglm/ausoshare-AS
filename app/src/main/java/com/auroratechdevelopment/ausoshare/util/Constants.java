@@ -10,6 +10,7 @@ public class Constants {
      * Integer conversion error codes
      */
 	public static final String VER = "1.3A";
+
     public static final String APP_ID = "wx6bb3add97b7da9f9";
 	//public static final String APP_ID = "79aed7dc241794397dd9fe18fe77a99e";
     public static final String WX_APP_SECRET = "wx6bb3add97b7da9f9";
@@ -124,6 +125,7 @@ public class Constants {
     public static final String PICKER_PAGE_FROM_PROFILE="my_photo_selector";
        
     public static final String FIRST_TIME_USE ="com.app.first_time_use";
+    public static final String UPDATE_FLAG ="com.app.update_flag";
     
     public static final String SHARED_AD_ID = "com.app.shared_ad_id";
     public static final String SHARED_AD_URL = "com.app.shared_ad_url";

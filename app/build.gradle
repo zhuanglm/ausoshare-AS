@@ -67,5 +67,5 @@ dependencies {
     compile files('libs/libammsdk.jar')
     compile files('libs/org.apache.http.legacy.jar')
 
-    compile files('libs/twitter4j-core-4.0.4.jar')
+    compile 'org.jsoup:jsoup:1.8.3'
 }

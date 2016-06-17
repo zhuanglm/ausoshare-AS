@@ -10,7 +10,7 @@ ADDED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml:2:1-
 		INJECTED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml
 		INJECTED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml:6:5-34
+		ADDED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml:6:5-31
 		INJECTED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml
 		INJECTED from F:\zlm Java\workspace\Ausoshare\app\src\main\AndroidManifest.xml
 	android:versionCode

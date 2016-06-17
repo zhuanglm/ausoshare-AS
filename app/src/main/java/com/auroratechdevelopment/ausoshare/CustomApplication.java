@@ -5,12 +5,19 @@ package com.auroratechdevelopment.ausoshare;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.support.multidex.MultiDex;
+import android.util.Log;
 
 import com.auroratechdevelopment.ausoshare.ui.ActivityBase;
 import com.auroratechdevelopment.ausoshare.ui.home.HomeActivity;
 import com.auroratechdevelopment.ausoshare.util.Constants;
 import com.auroratechdevelopment.common.persistent.SharedPreferenceManager;
+import com.auroratechdevelopment.common.webservice.WebServiceConstants;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 import java.util.Locale;
 
@@ -173,6 +180,13 @@ public class CustomApplication extends Application {
     	return SharedPreferenceManager.getBoolean(Constants.FIRST_TIME_USE);
     }
 
+    public void setIsUpdate(boolean flag){
+        SharedPreferenceManager.setBoolean(Constants.UPDATE_FLAG, flag);
+    }
+    public Boolean getIsUpdate(){
+        return SharedPreferenceManager.getBoolean(Constants.UPDATE_FLAG);
+    }
+
     public void setLanguage(String language){
         SharedPreferenceManager.setString(Constants.CURRENT_LANGUAGE, language);
     }
@@ -293,6 +307,27 @@ public class CustomApplication extends Application {
     public String getLastAD(){
         return SharedPreferenceManager.getString(Constants.LAST_AD);
     }
+
+    public String getCurrentVersion() throws Exception{
+        //获取packagemanager的实例
+        PackageManager packageManager = getPackageManager();
+        //getPackageName()是你当前类的包名，0代表是获取版本信息
+        PackageInfo packInfo = packageManager.getPackageInfo(getPackageName(), 0);
+        return packInfo.versionName;
+    }
+
+    public String getStoreVersion() throws Exception{
+
+        String newVersion = Jsoup.connect(WebServiceConstants.PLAY_STORE).timeout(5000).userAgent(
+                "Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6")
+                .referrer("http://www.google.com").get()
+                .select("div[itemprop=softwareVersion]").first()
+                .ownText();
+
+        return newVersion;
+    }
+
+
 
 //    private DatabaseReader databaseReader;
 //    private DatabaseWriter databaseWriter;

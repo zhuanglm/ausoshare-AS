@@ -6,6 +6,8 @@ import com.auroratechdevelopment.ausoshare.BuildConfig;
 public class WebServiceConstants {
     public static final float WebServiceConnectionTimeout = 45F;
     public static final float WebServiceReadTimeout = 45F;
+
+    public static final String PLAY_STORE = "https://play.google.com/store/apps/details?id=com.auroratechdevelopment.ausoshare";
     
     public static final boolean DoDebug = BuildConfig.DEBUG;
  
@@ -15,6 +17,8 @@ public class WebServiceConstants {
     
     public static final String splashAdImageURL = "http://api.ausomedia.com/splash_ad_image.jpg";
     public static final String splashAdImageURL_EN = "http://api.ausomedia.com/splash_ad_image_en.jpg";
+    public static final String top_banner_EN = "http://api.ausomedia.com/top-banner-en.png";
+    public static final String top_banner_ZH = "http://api.ausomedia.com/top-banner-zh.png";
 
     public static int ClientCertResId = -1;
     public static final String ClientCertPassword = "";

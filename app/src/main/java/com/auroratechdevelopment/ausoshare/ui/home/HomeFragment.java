@@ -29,6 +29,8 @@ import com.auroratechdevelopment.ausoshare.util.Constants;
 import com.auroratechdevelopment.common.DebugLogUtil;
 import com.auroratechdevelopment.common.ViewUtils;
 import com.auroratechdevelopment.common.ui.ViewPagerEx;
+import com.auroratechdevelopment.common.util.LoadNetPicture;
+import com.auroratechdevelopment.common.webservice.WebServiceConstants;
 import com.auroratechdevelopment.common.webservice.WebServiceHelper;
 import com.auroratechdevelopment.common.webservice.models.AdDataItem;
 import com.auroratechdevelopment.common.webservice.models.OnGoingAdItem;
@@ -54,7 +56,8 @@ public class HomeFragment extends HomeFragmentBase  implements
 	    private int startNumber = 0;
 	    private static final String KEY_ADS = "ADS";
 	    //private TextView forwardMethodText;
-	    private LinearLayout forwardMethodImg;
+	    private LinearLayout forwardMethodImg,TopbannerLayout;
+        private ImageView TopbannerImg;
 	    private RelativeLayout forwardMethodText;
 	    
 	    private ViewPagerEx pager;
@@ -66,6 +69,7 @@ public class HomeFragment extends HomeFragmentBase  implements
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
             isFinished = false;
+
 	    }
 	
 	    @Override
@@ -90,12 +94,24 @@ public class HomeFragment extends HomeFragmentBase  implements
         //forwardMethodText = (TextView) rootView.findViewById(R.id.forward_method_tv);
         forwardMethodImg = (LinearLayout) rootView.findViewById(R.id.forward_method_tv);
         //forwardMethodText = (RelativeLayout) rootView.findViewById(R.id.description_layout);
+        TopbannerLayout = (LinearLayout) rootView.findViewById(R.id.top_banner_layout);
+        TopbannerImg = (ImageView) rootView.findViewById(R.id.banner_imageView);
         
         //int abt = CustomApplication.getInstance().getSharedADTime();
         
         if(CustomApplication.getInstance().getSharedADTime()>=3){
+
         	//forwardMethodText.setVisibility(View.GONE);
         	forwardMethodImg.setVisibility(View.GONE);
+            TopbannerLayout.setVisibility(View.VISIBLE);
+
+            TopbannerImg.setScaleType(ImageView.ScaleType.FIT_XY);
+            if(CustomApplication.getInstance().getLanguage().substring(0,2).equals("zh")) {
+                new LoadNetPicture().getPicture(WebServiceConstants.top_banner_ZH, TopbannerImg);
+            }
+            else{
+                new LoadNetPicture().getPicture(WebServiceConstants.top_banner_EN, TopbannerImg);
+            }
         }
         
         

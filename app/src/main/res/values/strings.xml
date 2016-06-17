@@ -232,5 +232,8 @@
     <string name="lang_title_zh">系统语言为中文</string>
     <string name="lang_set_zh">如需变更生效请退出应用并重启</string>
     <string name="lang_change_zh">系统语言设置为中文</string>
+    <string name="update_title">It is not newest version</string>
+    <string name="update_require">Would you like to update?</string>
+
     
 </resources>

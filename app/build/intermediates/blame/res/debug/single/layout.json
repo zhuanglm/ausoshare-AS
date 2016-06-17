@@ -88,12 +88,12 @@
         "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
-    },
-    {
         "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
         "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "F:\\zlm Java\\workspace\\Ausoshare\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dgts__activity_pin_code.xml",

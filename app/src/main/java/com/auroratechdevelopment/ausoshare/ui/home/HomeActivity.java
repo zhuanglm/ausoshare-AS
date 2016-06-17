@@ -90,8 +90,10 @@ import com.google.android.gms.common.api.GoogleApiClient;
  * updated by Raymond Zhuang 2016/4/22
  */
 public class HomeActivity extends ActivityBase implements
-        PushHelper.PushHelperListener, OnQueryTextListener {
+        PushHelper.PushHelperListener, OnQueryTextListener,
+        CustomAlertDialog.AlertCallback{
 
+    private Context HomeContext;
     private ViewPagerEx pager;
     private MyPagerAdapter adapter;
 
@@ -115,6 +117,20 @@ public class HomeActivity extends ActivityBase implements
     private PushHelper pushHelper;
 
     public String m_sLanguage;
+
+    @Override
+    public void GetAlertButton(int which) {
+        if(which == -1){
+            final Bundle bundle = new Bundle();
+            bundle.putString(Constants.LAST_PAGE, Constants.HOME_PAGE);
+            ViewUtils.startPage(bundle, HomeActivity.this, LoginActivity.class);
+        }
+    }
+
+    @Override
+    public void AlertCancelled() {
+
+    }
 
 
     public interface HomeLangUpdated {
@@ -155,11 +171,63 @@ public class HomeActivity extends ActivityBase implements
     private HomeLangUpdated HomeLangUpdatedListener;
 
 
+    class UpdateVerCallback implements CustomAlertDialog.AlertCallback {
+
+        @Override
+        public void GetAlertButton(int which) {
+            if(which == -1) {
+                final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                }
+
+            }else{
+                CustomApplication.getInstance().setIsUpdate(false);
+            }
+
+        }
+
+        @Override
+        public void AlertCancelled() {
+
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //handleIntent(getIntent());
         Log.i("Raymond homeactivity", "oncreate");
+        HomeContext = this;
+
+        QueryVersion(new QueryVerCallback() {
+            @Override
+            public void responseVersion(String newVersion) {
+                String sVerName="";
+
+                try {
+                    sVerName = CustomApplication.getInstance().getCurrentVersion();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                Log.i("Raymond Version:",sVerName);
+                Log.i("Raymond ver PS", newVersion);
+
+                if(!sVerName.equals(newVersion) && CustomApplication.getInstance().getIsUpdate()) {
+                    UpdateVerCallback callback = new UpdateVerCallback();
+                    showCenterScreenOkCancelAlert(HomeContext,
+                            getResources().getString(R.string.update_title),
+                            getResources().getString(R.string.update_require),
+                            getString(R.string.button_ok), getString(R.string.button_cancel),
+                            callback, true);
+                }
+
+            }
+        });
+
 
     }
     
@@ -341,6 +409,24 @@ public class HomeActivity extends ActivityBase implements
     protected void getDeviceId() {
         String android_id = Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
         CustomApplication.getInstance().setAndroidID(android_id);
+    }
+
+    public interface QueryVerCallback {
+        void responseVersion(String newVersion);
+    };
+
+    private void QueryVersion(final QueryVerCallback query_callback){
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    String newVersion = CustomApplication.getInstance().getStoreVersion();
+                    query_callback.responseVersion(newVersion);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 
     public void getDeviceLocation() {
@@ -549,7 +635,7 @@ public class HomeActivity extends ActivityBase implements
         showCenterScreenOkCancelAlert(this,
                 getResources().getString(R.string.login_prompt_text),
                 getResources().getString(R.string.alert_share_ad_login_prompt_text),
-                getString(R.string.button_ok), getString(R.string.button_cancel), null, true
+                getString(R.string.button_ok), getString(R.string.button_cancel), this, true
         );
     }
 
@@ -613,10 +699,6 @@ public class HomeActivity extends ActivityBase implements
                 } catch (Exception e) {
                     // e.printStackTrace();
                 }
-
-                final Bundle bundle = new Bundle();
-                bundle.putString(Constants.LAST_PAGE, Constants.HOME_PAGE);
-                ViewUtils.startPage(bundle, HomeActivity.this, LoginActivity.class);
 
             }
         };

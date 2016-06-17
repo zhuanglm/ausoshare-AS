@@ -125,8 +125,8 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         	//splashAdImage2.setImageDrawable(getResources().getDrawable(R.drawable.splash_share));
             
             img_vf.setOnDisplayChagnedListener(this);
-            
-            
+
+            CustomApplication.getInstance().setIsUpdate(true);
                        
         }else{
         	splashAdImage1.setScaleType(ScaleType.FIT_XY);
@@ -145,13 +145,6 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
         
         //is not the first time, means from the second times
         if(isNotFirstTime){
-            String sVerName="";
-            try {
-                sVerName = getVersionName();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            Log.i("Raymond Version:",sVerName);
 
             pointLayout.setVisibility(View.INVISIBLE);
         	m_BtnSkip.setVisibility(View.VISIBLE);
@@ -181,13 +174,7 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
 
     }
 
-    private String getVersionName() throws Exception{
-        //获取packagemanager的实例
-        PackageManager packageManager = getPackageManager();
-        //getPackageName()是你当前类的包名，0代表是获取版本信息
-        PackageInfo packInfo = packageManager.getPackageInfo(getPackageName(), 0);
-        return packInfo.versionName;
-    }
+
 
     public void getCurrentLanguage(){
         Locale locale;
