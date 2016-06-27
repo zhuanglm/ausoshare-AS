@@ -13,7 +13,13 @@
 	<string name="errcode_unknown">Unknown error: %1$d</string>
 	<string name="double_click_exit_text">click one more time to quit</string>
 
-	<!-- tab titles -->
+    <!-- button bar-->
+    <string name="btn_share">share</string>
+    <string name="btn_entertaiment">entertaiment</string>
+    <string name="btn_contact">contact</string>
+    <string name="btn_me">me</string>
+
+    <!-- tab titles -->
 	<string name="tab_title_home">Home</string>
 	<string name="tab_title_yellowpage">YellowPage</string>
 	<string name="tab_title_contact">Contact</string>
@@ -230,7 +236,7 @@
     <string name="lang_set_en">You must restart to apply this change</string>
     <string name="lang_change_en">English will be applied</string>
     <string name="lang_title_zh">系统语言为中文</string>
-    <string name="lang_set_zh">如需变更生效请退出应用并重启</string>
+    <string name="lang_set_zh">如需语言变更生效请退出应用并重启</string>
     <string name="lang_change_zh">系统语言设置为中文</string>
     <string name="update_title">It is not newest version</string>
     <string name="update_require">Would you like to update?</string>

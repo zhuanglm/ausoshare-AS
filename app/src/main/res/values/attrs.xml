@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <attr name="i_btn" format="reference" />
+    <attr name="i_color" format="color" />
+    <attr name="text" format="string" />
+    <attr name="btn_text_size" format="dimension" />
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="i_btn" />
+        <attr name="i_color" />
+        <attr name="text" />
+        <attr name="btn_text_size" />
+    </declare-styleable>
+
     <declare-styleable name="Progress">
         <attr name="progress" format="integer" />
         <attr name="progress_color" format="color" />

@@ -258,6 +258,8 @@ public class HomeFragment extends HomeFragmentBase  implements
                 @Override
                 public void run() {
                 	if(adList.data != null &&adList.data.size() == 0 ){
+                        adapter.setList(adList.data);
+                        adapter.notifyDataSetChanged();
                         return;
                 	}
                 	

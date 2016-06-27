@@ -25,6 +25,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import android.widget.CompoundButton;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.util.Base64;
@@ -58,6 +59,7 @@ import com.auroratechdevelopment.ausoshare.R;
 import com.auroratechdevelopment.ausoshare.ui.ActivityBase;
 import com.auroratechdevelopment.ausoshare.ui.contact.ContactFragment;
 import com.auroratechdevelopment.ausoshare.ui.entertainment.EntertainmentFragment;
+import com.auroratechdevelopment.ausoshare.ui.ext.ChangeColorIconWithTextView;
 import com.auroratechdevelopment.ausoshare.ui.ext.CustomAlertDialog;
 import com.auroratechdevelopment.ausoshare.ui.login.LoginActivity;
 import com.auroratechdevelopment.ausoshare.ui.profile.CurrentIncomeActivity;
@@ -97,14 +99,19 @@ public class HomeActivity extends ActivityBase implements
     private ViewPagerEx pager;
     private MyPagerAdapter adapter;
 
-    private ImageButton ibtnHome;
+    //private ImageButton ibtnHome;
+    private ChangeColorIconWithTextView ibtnHome;
+    private ChangeColorIconWithTextView ibtnEntertainment;
+    private ChangeColorIconWithTextView ibtnContact;
+    private ChangeColorIconWithTextView ibtnProfile;
     private ImageButton ibtnYellowPage;
-    private ImageButton ibtnContact;
-    private ImageButton ibtnProfile;
-    private ImageButton ibtnEntertainment;
+    //private ImageButton ibtnContact;
+    //private ImageButton ibtnProfile;
+    //private ImageButton ibtnEntertainment;
     private ImageButton ibtnPromotion;
     private SearchView m_Search;
     private Switch m_Lang_Switch;
+    public LinearLayout m_bottombar;
 
     private AppLocationService appLocationService;
 
@@ -286,11 +293,17 @@ public class HomeActivity extends ActivityBase implements
         int halfScreenWidth = (dm.widthPixels - 30) / 2;
         CustomApplication.getInstance().setScreenWidth(halfScreenWidth);
 
-        ibtnHome = (ImageButton) findViewById(R.id.bottomtab_home);
-        ibtnYellowPage = (ImageButton) findViewById(R.id.bottomtab_yellow_page);
-        ibtnContact = (ImageButton) findViewById(R.id.bottomtab_contact);
-        ibtnProfile = (ImageButton) findViewById(R.id.bottomtab_profile);
-        ibtnEntertainment = (ImageButton) findViewById(R.id.bottomtab_entertainment);
+        m_bottombar = (LinearLayout)findViewById(R.id.colors);
+        //ibtnHome = (ImageButton) findViewById(R.id.bottomtab_home);
+        //ibtnYellowPage = (ImageButton) findViewById(R.id.bottomtab_yellow_page);
+        //ibtnContact = (ImageButton) findViewById(R.id.bottomtab_contact);
+        //ibtnProfile = (ImageButton) findViewById(R.id.bottomtab_profile);
+        //ibtnEntertainment = (ImageButton) findViewById(R.id.bottomtab_entertainment);
+
+        ibtnHome = (ChangeColorIconWithTextView) findViewById(R.id.bottomtab_home);
+        ibtnEntertainment = (ChangeColorIconWithTextView) findViewById(R.id.bottomtab_entertainment);
+        ibtnContact = (ChangeColorIconWithTextView) findViewById(R.id.bottomtab_contact);
+        ibtnProfile = (ChangeColorIconWithTextView) findViewById(R.id.bottomtab_profile);
 
         m_Lang_Switch = (Switch) findViewById(R.id.lang_switch);
         m_Lang_Switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -376,6 +389,27 @@ public class HomeActivity extends ActivityBase implements
     }
 
     private void setBottomBarSelected(int last_tab) {
+        //ibtnHome.setIconAlpha(0);
+        resetBottomSelected();
+
+        if (last_tab == Constants.FRAG_HOME) {
+            ibtnHome.setIconAlpha(1.0f);
+        } else if (last_tab == Constants.FRAG_CONTACT) {
+            ibtnContact.setIconAlpha(1.0f);
+        } else if (last_tab == Constants.FRAG_PROFILE) {
+            ibtnProfile.setIconAlpha(1.0f);
+        } else if (last_tab == Constants.FRAG_YELLOW_PAGE) {
+            //ibtnYellowPage.setSelected(true);
+        } else if (last_tab == Constants.FRAG_ENTERTAINMENT) {
+            ibtnEntertainment.setIconAlpha(1.0f);
+        } else if (last_tab == Constants.FRAG_PROMOTION) {
+            ibtnPromotion.setSelected(true);
+        } else {
+            ibtnHome.setIconAlpha(1.0F);
+        }
+    }
+
+    /*private void setBottomBarSelected(int last_tab) {
         ibtnHome.setSelected(false);
 
         if (last_tab == Constants.FRAG_HOME) {
@@ -393,7 +427,7 @@ public class HomeActivity extends ActivityBase implements
         } else {
             ibtnHome.setSelected(true);
         }
-    }
+    }*/
 
     public void getRegisteredUserInfo() {
         String user_name = CustomApplication.getInstance().getUsername();
@@ -465,12 +499,19 @@ public class HomeActivity extends ActivityBase implements
         }
     }
 
-    public void resetBottomSelected() {
+    /*public void resetBottomSelected() {
         ibtnHome.setSelected(false);
         ibtnYellowPage.setSelected(false);
         ibtnContact.setSelected(false);
         ibtnProfile.setSelected(false);
         ibtnEntertainment.setSelected(false);
+    }*/
+
+    public void resetBottomSelected() {
+        ibtnHome.setIconAlpha(0);
+        ibtnContact.setIconAlpha(0);
+        ibtnProfile.setIconAlpha(0);
+        ibtnEntertainment.setIconAlpha(0);
     }
 
     public void onBottombarItemClicked(View v) {
@@ -489,7 +530,7 @@ public class HomeActivity extends ActivityBase implements
             } else {
                 ViewUtils.setBackgroundDrawable(ibtnHome, null);
                 ViewUtils.setBackgroundDrawable(ibtnEntertainment, null);
-                ViewUtils.setBackgroundDrawable(ibtnYellowPage, null);
+                //ViewUtils.setBackgroundDrawable(ibtnYellowPage, null);
                 ViewUtils.setBackgroundDrawable(ibtnContact, null);
                 ViewUtils.setBackgroundDrawable(ibtnProfile, null);
 
@@ -810,6 +851,8 @@ public class HomeActivity extends ActivityBase implements
         ibtnContact = null;
         ibtnProfile = null;
         ibtnEntertainment = null;
+        m_bottombar = null;
+        //setContentView(null);
         System.gc();
 
         Log.i("Raymond homeactivity", "ondestroy");
@@ -1048,7 +1091,7 @@ public class HomeActivity extends ActivityBase implements
             if (HomeAdStartNumUpdatedListener != null) {
                 HomeAdStartNumUpdatedListener.onHomeStartNumUpdated(0);
             }
-            WebServiceHelper.getInstance().onGoingAdList(user_info, Constants.TAG_ADVERT, m_Search.getQuery().toString());
+            WebServiceHelper.getInstance().onGoingAdList(user_info, Constants.TAG_ADVERT, m_Search.getQuery().toString(),m_sLanguage);
             //Toast.makeText(this, "submit advertisement["+m_Search.getQuery()+"]", Toast.LENGTH_SHORT).show();
         } else if (iLastTab == 1) {
             //entertaiment

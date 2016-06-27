@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/colors"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <com.auroratechdevelopment.ausoshare.ui.ext.ChangeColorIconWithTextView
+        android:id="@+id/bottomtab_home"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription=""
+        android:onClick="onBottombarItemClicked"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:i_btn="@drawable/icon_share_z"
+        app:i_color="@color/theme_title"
+        app:text="@string/btn_share"
+        app:btn_text_size="10sp"/>
+    />
+
+
+    <com.auroratechdevelopment.ausoshare.ui.ext.ChangeColorIconWithTextView
+        android:id="@+id/bottomtab_entertainment"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription="@string/empty"
+        android:onClick="onBottombarItemClicked"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:i_btn="@drawable/icon_entertainment_z"
+        app:i_color="@color/theme_title"
+        app:text="@string/btn_entertaiment"
+        app:btn_text_size="10sp"
+        />
+
+    <com.auroratechdevelopment.ausoshare.ui.ext.ChangeColorIconWithTextView
+        android:id="@+id/bottomtab_contact"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:contentDescription="@string/empty"
+        android:onClick="onBottombarItemClicked"
+        android:padding="5dp"
+        app:i_btn="@drawable/icon_contact_z"
+        app:i_color="@color/theme_title"
+        app:text="@string/btn_contact"
+        app:btn_text_size="10sp"
+        android:tag="3" />
+
+    <com.auroratechdevelopment.ausoshare.ui.ext.ChangeColorIconWithTextView
+        android:id="@+id/bottomtab_profile"
+        android:layout_width="0dip"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription="@string/empty"
+        android:onClick="onBottombarItemClicked"
+        android:padding="5dp"
+        app:i_btn="@drawable/icon_mine_z"
+        app:i_color="@color/theme_title"
+        app:text="@string/btn_me"
+        app:btn_text_size="10sp"
+        android:tag="4" />
+
+</LinearLayout>

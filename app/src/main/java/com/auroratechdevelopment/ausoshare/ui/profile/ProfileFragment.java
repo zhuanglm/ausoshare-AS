@@ -45,6 +45,7 @@ import com.auroratechdevelopment.ausoshare.ui.home.PrepareShareAdActivity;
 import com.auroratechdevelopment.ausoshare.ui.login.LoginActivity;
 import com.auroratechdevelopment.ausoshare.ui.login.RegisterActivity;
 import com.auroratechdevelopment.ausoshare.ui.photopicker.PhotoPickerActivity;
+import com.auroratechdevelopment.ausoshare.ui.startup.SplashActivity;
 import com.auroratechdevelopment.ausoshare.util.Constants;
 import com.auroratechdevelopment.common.ViewUtils;
 import com.auroratechdevelopment.common.util.FileUtils;
@@ -219,7 +220,8 @@ public class ProfileFragment extends HomeFragmentBase implements
         m_img_avatar.setOnClickListener(this);
         m_tv_avatar.setOnClickListener(this);
 
-        m_tv_currentIncome = (TextView) rootView.findViewById(R.id.current_income_tV);
+        //m_tv_currentIncome = (TextView) rootView.findViewById(R.id.current_income_tV);
+        m_tv_currentIncome = (TextView) rootView.findViewById(R.id.user_info_tV);
         m_tv_username = (TextView) rootView.findViewById(R.id.user_name_tV);
         //m_tv_asset = (TextView)rootView.findViewById(R.id.asset_tV);
         m_leaderboard = (TextView) rootView.findViewById(R.id.leaderboard_tV);
@@ -291,7 +293,7 @@ public class ProfileFragment extends HomeFragmentBase implements
                     SetENCallback callback = new SetENCallback();
                     showCenterScreenOkCancelAlert(getContext(),
                             getResources().getString(R.string.lang_title_en),
-                            getResources().getString(R.string.lang_set_en),
+                            getResources().getString(R.string.lang_change_en),
                             "OK", "Cancel",
                             callback, true);
 
@@ -300,7 +302,7 @@ public class ProfileFragment extends HomeFragmentBase implements
                     SetZHCallback callback = new SetZHCallback();
                     showCenterScreenOkCancelAlert(getContext(),
                             getResources().getString(R.string.lang_title_zh),
-                            getResources().getString(R.string.lang_set_zh),
+                            getResources().getString(R.string.lang_change_zh),
                             "确认", "取消",
                             callback, true);
 
@@ -680,12 +682,19 @@ public class ProfileFragment extends HomeFragmentBase implements
         CustomApplication.getInstance().setLanguage(language);
 
 
-        /*Intent intent = homeActivity.getIntent();
+        Intent intent = homeActivity.getIntent();
         homeActivity.overridePendingTransition(0, 0);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        homeActivity.m_bottombar = null;
         homeActivity.finish();
         homeActivity.overridePendingTransition(0, 0);
-        startActivity(intent);*/
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //startActivity(intent);
+        ViewUtils.startPageWithClearStack(null, homeActivity, HomeActivity.class);
 
     }
 
