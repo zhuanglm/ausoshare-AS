@@ -39,4 +39,27 @@
 	    <attr name="withTextInterval" format="dimension"/>
     </declare-styleable>
 
+    <declare-styleable name="MySwitch">
+        <attr name="zThumbDrawable" format="reference"/>
+        <attr name="zThumbColor" format="color|reference"/>
+        <attr name="zThumbMargin" format="dimension|reference"/>
+        <attr name="zThumbMarginTop" format="dimension|reference"/>
+        <attr name="zThumbMarginBottom" format="dimension|reference"/>
+        <attr name="zThumbMarginLeft" format="dimension|reference"/>
+        <attr name="zThumbMarginRight" format="dimension|reference"/>
+        <attr name="zThumbWidth" format="dimension|reference"/>
+        <attr name="zThumbHeight" format="dimension|reference"/>
+        <attr name="zThumbRadius" format="dimension|reference"/>
+        <attr name="zBackRadius" format="dimension|reference"/>
+        <attr name="zBackDrawable" format="reference"/>
+        <attr name="zBackColor" format="color|reference"/>
+        <attr name="zFadeBack" format="boolean"/>
+        <attr name="zBackMeasureRatio" format="float"/>
+        <attr name="zAnimationDuration" format="integer"/>
+        <attr name="zTintColor" format="color|reference"/>
+        <attr name="zTextOn" format="string"/>
+        <attr name="zTextOff" format="string"/>
+        <attr name="zTextMarginH" format="dimension"/>
+    </declare-styleable>
+
 </resources>

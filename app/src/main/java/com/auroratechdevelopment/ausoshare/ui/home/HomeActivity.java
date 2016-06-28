@@ -61,6 +61,7 @@ import com.auroratechdevelopment.ausoshare.ui.contact.ContactFragment;
 import com.auroratechdevelopment.ausoshare.ui.entertainment.EntertainmentFragment;
 import com.auroratechdevelopment.ausoshare.ui.ext.ChangeColorIconWithTextView;
 import com.auroratechdevelopment.ausoshare.ui.ext.CustomAlertDialog;
+import com.auroratechdevelopment.ausoshare.ui.ext.MySwitch;
 import com.auroratechdevelopment.ausoshare.ui.login.LoginActivity;
 import com.auroratechdevelopment.ausoshare.ui.profile.CurrentIncomeActivity;
 import com.auroratechdevelopment.ausoshare.ui.profile.ProfileFragment;
@@ -110,7 +111,7 @@ public class HomeActivity extends ActivityBase implements
     //private ImageButton ibtnEntertainment;
     private ImageButton ibtnPromotion;
     private SearchView m_Search;
-    private Switch m_Lang_Switch;
+    private MySwitch m_Lang_Switch;
     public LinearLayout m_bottombar;
 
     private AppLocationService appLocationService;
@@ -305,7 +306,7 @@ public class HomeActivity extends ActivityBase implements
         ibtnContact = (ChangeColorIconWithTextView) findViewById(R.id.bottomtab_contact);
         ibtnProfile = (ChangeColorIconWithTextView) findViewById(R.id.bottomtab_profile);
 
-        m_Lang_Switch = (Switch) findViewById(R.id.lang_switch);
+        m_Lang_Switch = (MySwitch) findViewById(R.id.lang_switch);
         m_Lang_Switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {

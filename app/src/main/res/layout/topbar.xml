@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="fill_parent"
                 android:layout_height="60dp"
                 android:paddingLeft="5dp"
@@ -7,11 +8,11 @@
                 android:background="@color/theme_color_unpressed"
     >
 
-    <RelativeLayout 
+    <RelativeLayout
         android:id="@+id/backButton_layout"
         android:layout_height="match_parent"
-        android:layout_width="30dp"
-        >
+        android:layout_width="30dp"  >
+
         <Button
         android:id="@+id/backButton"
         android:layout_width="25dp"
@@ -74,20 +75,23 @@
 
     </SearchView>
 
-    <Switch
+
+    <com.auroratechdevelopment.ausoshare.ui.ext.MySwitch
+        android:id="@+id/lang_switch"
+        style="@style/SwitchButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lang_switch"
         android:layout_alignParentStart="false"
         android:layout_alignParentLeft="false"
         android:gravity="center_vertical"
         android:layout_centerVertical="true"
-        android:textOff="En"
-        android:textOn="中"
-        android:textStyle="normal"
-        android:showText="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        app:zTextOff="En"
+        app:zTextOn="中"
+        app:zTintColor="@color/orange"
         android:visibility="invisible"
-        android:checked="true" />
+        />
 
 
 </RelativeLayout>

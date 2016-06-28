@@ -103,9 +103,9 @@ public class PrepareShareAdActivity extends ActivityBase {
     
     private ImageView imageView, viewImage_ad_share;
     private FrameLayout layoutWebView;
-    
-    ShareDialog shareDialog;
-	CallbackManager callbackManager;
+
+    private ShareDialog shareDialog;
+	private CallbackManager callbackManager;
     
 
 	@Override

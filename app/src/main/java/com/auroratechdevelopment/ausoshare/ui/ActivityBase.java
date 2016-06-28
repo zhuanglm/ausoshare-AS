@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.MenuItem;
@@ -43,7 +44,7 @@ import com.auroratechdevelopment.common.webservice.response.ResponseBase;
  * Updated by Raymond Zhuang 2016/5/3
 ActionBarActivity
  */
-public abstract class ActivityBase extends ActionBarActivity implements
+public abstract class ActivityBase extends AppCompatActivity implements
         WebServiceListener {
 
     public static final String ActionTag_SlideMenuClicked = "com.auroratechdevelopment.ausomedia.SlideMenuClicked";
