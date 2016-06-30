@@ -58,6 +58,7 @@ public class Constants {
 
     public static final String PREF_REMEMBERME = "com.app.rememberme";
     public static final String PREF_NOTIFIED = "com.app.notification";
+    public static final String PREF_NewVerCheck = "com.app.checknewver";
     public static final String PREF_REMEMBEPASSWORD = "com.app.rememberpassword";
 
     public static final String BUNDLE_ORDER_DETAIL = "com.app.orderDetail";

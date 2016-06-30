@@ -210,31 +210,33 @@ public class HomeActivity extends ActivityBase implements
         Log.i("Raymond homeactivity", "oncreate");
         HomeContext = this;
 
-        QueryVersion(new QueryVerCallback() {
-            @Override
-            public void responseVersion(String newVersion) {
-                String sVerName="";
+        if(CustomApplication.getInstance().getNewVersionChecked()) {
+            QueryVersion(new QueryVerCallback() {
+                @Override
+                public void responseVersion(String newVersion) {
+                    String sVerName = "";
 
-                try {
-                    sVerName = CustomApplication.getInstance().getCurrentVersion();
+                    try {
+                        sVerName = CustomApplication.getInstance().getCurrentVersion();
 
-                } catch (Exception e) {
-                    e.printStackTrace();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    Log.i("Raymond Version:", sVerName);
+                    Log.i("Raymond ver PS", newVersion);
+
+                    if (!sVerName.equals(newVersion) && CustomApplication.getInstance().getIsUpdate()) {
+                        UpdateVerCallback callback = new UpdateVerCallback();
+                        showCenterScreenOkCancelAlert(HomeContext,
+                                getResources().getString(R.string.update_title),
+                                getResources().getString(R.string.update_require),
+                                getString(R.string.button_ok), getString(R.string.button_cancel),
+                                callback, true);
+                    }
+
                 }
-                Log.i("Raymond Version:",sVerName);
-                Log.i("Raymond ver PS", newVersion);
-
-                if(!sVerName.equals(newVersion) && CustomApplication.getInstance().getIsUpdate()) {
-                    UpdateVerCallback callback = new UpdateVerCallback();
-                    showCenterScreenOkCancelAlert(HomeContext,
-                            getResources().getString(R.string.update_title),
-                            getResources().getString(R.string.update_require),
-                            getString(R.string.button_ok), getString(R.string.button_cancel),
-                            callback, true);
-                }
-
-            }
-        });
+            });
+        }
 
 
     }

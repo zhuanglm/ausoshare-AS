@@ -26,7 +26,7 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <color name="DarkSilver_bg">#C4C3C3</color>
+    <color name="DarkSilver_bg">#c4c3c3</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -233,7 +233,7 @@
     <color name="olive">#808000</color>
     <color name="olivedrab">#6B8E23</color>
     <color name="orange">#FFA500</color>
-    <color name="orangered">#FF4500</color>
+    <color name="orangered">#ff4500</color>
     <color name="orchid">#DA70D6</color>
     <color name="palegoldenrod">#EEE8AA</color>
     <color name="palegreen">#98FB98</color>
@@ -378,6 +378,7 @@
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
+    <declare-styleable name="MySwitch"><attr format="reference" name="zThumbDrawable"/><attr format="color|reference" name="zThumbColor"/><attr format="dimension|reference" name="zThumbMargin"/><attr format="dimension|reference" name="zThumbMarginTop"/><attr format="dimension|reference" name="zThumbMarginBottom"/><attr format="dimension|reference" name="zThumbMarginLeft"/><attr format="dimension|reference" name="zThumbMarginRight"/><attr format="dimension|reference" name="zThumbWidth"/><attr format="dimension|reference" name="zThumbHeight"/><attr format="dimension|reference" name="zThumbRadius"/><attr format="dimension|reference" name="zBackRadius"/><attr format="reference" name="zBackDrawable"/><attr format="color|reference" name="zBackColor"/><attr format="boolean" name="zFadeBack"/><attr format="float" name="zBackMeasureRatio"/><attr format="integer" name="zAnimationDuration"/><attr format="color|reference" name="zTintColor"/><attr format="string" name="zTextOn"/><attr format="string" name="zTextOff"/><attr format="dimension" name="zTextMarginH"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="Progress"><attr format="integer" name="progress"/><attr format="color" name="progress_color"/><attr format="color" name="background_color"/><attr format="dimension" name="stroke_width"/><attr format="dimension" name="background_stroke_width"/><attr format="color" name="text_color"/><attr format="integer" name="text_size"/></declare-styleable>
@@ -696,7 +697,7 @@
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">8a197bed-e874-45f3-a883-b9a3652052ad</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">9240a6c5-5977-430d-ba29-9fe334b975e5</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -959,6 +960,7 @@
     <string name="ui_album">pick from album</string>
     <string name="ui_avatar">[Avatar]</string>
     <string name="ui_bonus">bonus: $</string>
+    <string name="ui_check_update">check new version</string>
     <string name="ui_click">click to open</string>
     <string name="ui_current_income">current income: $</string>
     <string name="ui_detail">Detail</string>
@@ -2253,6 +2255,12 @@
     <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="Base.Widget.AppCompat.ActionButton">
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>

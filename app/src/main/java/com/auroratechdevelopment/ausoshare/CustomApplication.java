@@ -143,6 +143,13 @@ public class CustomApplication extends Application {
         return  SharedPreferenceManager.getBoolean(Constants.PREF_NOTIFIED);
     }
 
+    public void setNewVersionChecked(boolean isNotified) {
+        SharedPreferenceManager.setBoolean(Constants.PREF_NewVerCheck, isNotified);
+    }
+    public boolean getNewVersionChecked() {
+        return  SharedPreferenceManager.getBoolean(Constants.PREF_NewVerCheck);
+    }
+
     public void setRememberPasswordChecked(boolean rememberPassword) {
         SharedPreferenceManager.setBoolean(Constants.PREF_REMEMBEPASSWORD, rememberPassword);
     }

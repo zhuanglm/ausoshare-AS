@@ -95,7 +95,7 @@ public class ProfileFragment extends HomeFragmentBase implements
     private Bitmap m_bm_Avatar;
     private RadioGroup m_lang_Group;
     private RadioButton m_lang_en, m_lang_zh;
-    private CompoundButton m_Notification_switch;
+    private CompoundButton m_Notification_switch,m_Update_switch;
 
     private boolean m_bIsCancelled = false;
 
@@ -254,10 +254,20 @@ public class ProfileFragment extends HomeFragmentBase implements
         m_Notification_switch = ((CompoundButton) rootView.findViewById(R.id.noti_switch));
         m_Notification_switch.setChecked(CustomApplication.getInstance().getNotificationChecked());
 
+        m_Update_switch = ((CompoundButton) rootView.findViewById(R.id.update_switch));
+        m_Update_switch.setChecked(CustomApplication.getInstance().getNewVersionChecked());
+
         m_Notification_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 CustomApplication.getInstance().setNotificationChecked(isChecked);
+            }
+        });
+
+        m_Update_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                CustomApplication.getInstance().setNewVersionChecked(isChecked);
             }
         });
 

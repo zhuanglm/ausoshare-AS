@@ -271,11 +271,51 @@
 	    </LinearLayout>
 
 		<LinearLayout
-			android:id="@+id/language_setting_layout"
+			android:id="@+id/update_setting_layout"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:background="@color/white"
 			android:layout_below="@+id/noti_setting_layout"
+			android:orientation="horizontal"
+			android:visibility="visible" >
+
+			<TextView
+				android:id="@+id/update_setting"
+				style="@style/myProfile"
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:layout_marginLeft="8dp"
+				android:layout_marginTop="5dp"
+				android:layout_weight="1"
+				android:clickable="false"
+				android:text="@string/ui_check_update" />
+
+			<com.auroratechdevelopment.ausoshare.ui.ext.SwitchButton
+				android:id="@+id/update_switch"
+				style="@style/myProfile"
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:layout_marginLeft="0dp"
+				android:layout_marginTop="5dp"
+				android:layout_weight="3"
+				android:background="@color/white"
+				android:checked="true"
+				android:padding="4dp"
+				app:frameDrawable="@drawable/switch_frame"
+				app:sliderDrawable="@drawable/selector_switch_slider"
+				app:stateDrawable="@drawable/selector_switch_state"
+				app:stateMaskDrawable="@drawable/switch_state_mask"
+				app:withTextInterval="16dp" />
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:id="@+id/language_setting_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_below="@+id/update_setting_layout"
 			android:orientation="horizontal"
 			android:visibility="visible" >
 

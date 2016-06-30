@@ -206,6 +206,7 @@
      <string name="ui_withdraw_record">withdraw record</string>
      <string name="ui_withdraw_request">withdraw request</string>
      <string name="ui_push_notification">push notification</string>
+    <string name="ui_check_update">check new version</string>
      <string name="ui_lang_setting">Language</string>
      <string name="ui_lang_en">English</string>
      <string name="ui_lang_zh">中文</string>

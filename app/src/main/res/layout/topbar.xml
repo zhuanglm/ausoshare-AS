@@ -87,8 +87,8 @@
         android:layout_centerVertical="true"
         android:textColor="#FFFFFF"
         android:textSize="16dp"
-        app:zTextOff="En"
-        app:zTextOn="中"
+        app:zTextOff="中"
+        app:zTextOn="En"
         app:zTintColor="@color/orange"
         android:visibility="invisible"
         />
