@@ -169,6 +169,7 @@ public class SplashActivity extends Activity implements OnGestureListener,OnDisp
 
         	CustomApplication.getInstance().setNotificationChecked(true);
         	CustomApplication.getInstance().setNotFirstTimeUse(true);
+            CustomApplication.getInstance().setNewVersionChecked(true);
         	//showFirstTimeUseGuide();
         }
 
